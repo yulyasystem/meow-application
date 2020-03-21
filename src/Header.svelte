@@ -28,6 +28,20 @@
     width: 300px;
   }
 
+  .freak {
+    font-size: 72px;
+    background-image: linear-gradient(to right, #ffe600, #f0f);
+    display: inline-block;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  h1 {
+    letter-spacing: -6px;
+    padding-bottom: 30px;
+    margin-left: -12px;
+  }
+
   label {
     margin-bottom: 5px;
   }
@@ -36,6 +50,7 @@
 <header>
   {#if !isShown}
     <div transition:fade={{ delay: 100, duration: 100 }} class="form">
+      <h1 class="freak">Julia, you are fucking freak</h1>
       <label>What is your name?</label>
       <div class="submit">
         <input type="text" bind:value={name} on:input={handleName} />

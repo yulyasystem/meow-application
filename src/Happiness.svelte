@@ -14,8 +14,8 @@
     "don't worry, COVID-19 will be cured",
     "you're rock! ⛏️",
     "🌵 loves you",
-    "🌵 loves you",
-    "🌵 loves you"
+
+    "You're the cutest kotya ❤️❤️❤️"
   ];
   let amountOfLove = 0;
   let isEnough = false;
